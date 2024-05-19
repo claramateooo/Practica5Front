@@ -1,0 +1,234 @@
+/* Estilos para el botón */
+.custom-class {
+  background-color: #4CAF50; /* Color de fondo verde */
+  border: none; /* Sin borde */
+  color: white; /* Color de texto blanco */
+  padding: 15px 32px; /* Relleno */
+  text-align: center; /* Alineación del texto al centro */
+  text-decoration: none; /* Sin decoración de texto */
+  display: inline-block; /* Mostrar como elemento en línea */
+  font-size: 16px; /* Tamaño de la fuente */
+  margin: 4px 2px; /* Margen */
+  cursor: pointer; /* Cambiar cursor a pointer */
+  border-radius: 12px; /* Bordes redondeados */
+  transition-duration: 0.4s; /* Duración de la transición */
+}
+
+/* Efectos de sombra cuando se pasa el mouse sobre el botón */
+.custom-class:hover {
+  background-color: #45a049; /* Cambiar el color de fondo cuando se pasa el mouse */
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); /* Agregar sombra */
+}
+
+
+h1.center {
+  font-size: 36px;
+  color: #58474c;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Transforma el texto a mayúsculas */
+  letter-spacing: 2px; /* Aumenta el espaciado entre letras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Agrega sombra al texto */
+}
+
+
+/* Estilos para la lista de películas */
+.peliculas {
+  display: flex; /* Mostrar como elementos flexibles */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en varias líneas */
+  justify-content: space-around; /* Distribuir los elementos de manera uniforme */
+  padding: 20px; /* Añadir espacio alrededor de la lista */
+  background-color: #f9f9f9; /* Color de fondo */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para cada película */
+.peliculas a {
+  text-decoration: none; /* Sin decoración de texto */
+  color: #333; /* Color de texto gris oscuro */
+  margin: 20px; /* Margen */
+  width: 200px; /* Ancho */
+  padding: 20px; /* Añadir espacio interno */
+  background-color: #fff; /* Color de fondo de cada película */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.3s ease; /* Efecto de transición */
+}
+
+.peliculas a:hover {
+  transform: translateY(-5px); /* Efecto de levantar ligeramente al pasar el mouse */
+}
+
+/* Estilos para el mensaje final */
+.final-message {
+  color: #FF5733; /* Color de texto naranja */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para el botón de eliminar filtros */
+.final-message .custom-class {
+  background-color: #f44336; /* Color de fondo rojo */
+}
+
+/* Estilos para el formulario de creación de proyectos */
+.modal {
+  position: fixed; /* Posición fija */
+  top: 50%; /* 50% desde arriba */
+  left: 50%; /* 50% desde la izquierda */
+  transform: translate(-50%, -50%); /* Centrar vertical y horizontalmente */
+  background-color: #f2f2f2; /* Color de fondo gris claro */
+  padding: 20px; /* Relleno */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Agregar sombra */
+  z-index: 1; /* Z-index para superposición */
+}
+
+.modal_close {
+  background-color: #008CBA; /* Color de fondo azul */
+  color: white; /* Color de texto blanco */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Relleno */
+  text-align: center; /* Alineación del texto al centro */
+  text-decoration: none; /* Sin decoración de texto */
+  display: inline-block; /* Mostrar como elemento en línea */
+  font-size: 16px; /* Tamaño de la fuente */
+  margin-top: 10px; /* Margen superior */
+  cursor: pointer; /* Cambiar cursor a pointer */
+  border-radius: 5px; /* Bordes redondeados */
+  transition-duration: 0.4s; /* Duración de la transición */
+}
+
+.modal_close:hover {
+  background-color: #005f6b; /* Cambiar color de fondo al pasar el mouse */
+}
+/* Estilos para el componente UnaPelicula */
+
+.cool-movie {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cool-movie h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cool-movie img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.movie-info {
+  margin-top: 20px;
+}
+
+.movie-info div {
+  margin-bottom: 10px;
+}
+
+.description {
+  font-style: italic;
+}
+
+.btn-blue {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: #0056b3;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+}
+
+.b {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px;
+  background: linear-gradient(45deg, #a5f3c5, #4e7560);
+  color: #FFFFFF;
+  text-decoration: none;
+  border: 2px solid #2c2422;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  font-family: 'Arial', sans-serif; 
+}
+
+.b:hover {
+  background: linear-gradient(45deg, #FFC300, #FF5733);
+  transform: scale(1.05);
+}
+
+
+.center {
+  text-align: center;
+}
+
+
+.select-style {
+  padding: 12px;
+  margin: 8px;
+  border: 2px solid #89ffc8;
+  border-radius: 8px;
+  background-color: #b8ffcf;
+  font-size: 18px;
+  outline: none; /* Quita el contorno al seleccionar */
+  transition: border-color 0.3s ease;
+}
+
+/* Estilos para el campo de búsqueda */
+.input-search {
+  padding: 12px;
+  margin: 8px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px;
+  outline: none; /* Quita el contorno al seleccionar */
+  transition: border-color 0.3s ease;
+}
+
+/* Efecto de resaltado al pasar el mouse sobre los campos de entrada */
+.input-search:hover,
+.select-style:hover {
+  border-color: #89ffc8;
+}
+
+/* Estilos para el mensaje final */
+.final-message {
+  font-size: 20px;
+  color: #ff1b1b;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para el botón */
+.btn {
+  padding: 12px 24px;
+  background-color: #4c815c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #bbdcff;
+}
